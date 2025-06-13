@@ -1,15 +1,13 @@
-
-
 function uppg3() {
-
-    // Skriv ut summan av två tal
-    // deklarera två variabler, a och b
-    // tilldela värdena 5 och 10 till variablerna
-    // skriv ut summan av a och b i konsolen
-
-
-
+  // Skriv ut summan av två tal
+  // deklarera två variabler, a och b
+  // tilldela värdena 5 och 10 till variablerna
+  // skriv ut summan av a och b i konsolen
+  let a = 5,
+    b = 10;
+  let sum = a + b;
+  console.log(sum);
 }
-
-
+//test
+uppg3();
 module.exports = { uppg3 };

@@ -8,7 +8,21 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
 
+    function Sorti (arr_num){
+        for (const num of arr_num){
+            if(num % 2 !== 0){
+                console.log(`${num} udda`)
+            }else if(num % 2 === 0){
+                console.log(`${num} jämt`)
+            }
+        }
+    }
+
+    let numbarrays = [2,4,5,9,8,12,64,23,11,92,3];
+
+    Sorti(numbarrays);
   
 }
-
+//test
+uppg9();
 module.exports = { uppg9 };
