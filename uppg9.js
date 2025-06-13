@@ -12,7 +12,7 @@ function uppg9 (){
         for (const num of arr_num){
             if(num % 2 !== 0){
                 console.log(`${num} udda`)
-            }else if(num % 2 === 0){
+            }else{
                 console.log(`${num} jämt`)
             }
         }
