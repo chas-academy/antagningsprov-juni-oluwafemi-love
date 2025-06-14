@@ -11,9 +11,9 @@ function uppg9 (){
     function Sorti (arr_num){
         for (const num of arr_num){
             if(num % 2 === 0){
-                console.log(`${num} jämt`)
+                console.log(num,'jämt')
             }else{
-                console.log(`${num} udda`)
+                console.log(num,'udda')
             }
         }
     }
